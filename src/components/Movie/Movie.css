@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+body {
+  background-color: #2f3b6dd5;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 100px;
+}
+.card-title {
+  color: rgba(36, 36, 225, 0.885);
+}
+.genre {
+  color: rgb(79, 79, 79);
+  font-size: 12px;
+  line-height: 1em;
+}
+.stars,
+.director,
+.stars,
+.budget,
+.play {
+  font-size: 14px;
+}
+.stars {
+  color: rgb(82, 82, 226);
+}
+.add-btn {
+  position: relative;
+  bottom: 5px;
+}
+.ratings-container {
+  text-align: center;
+}
+.fa-star {
+  color: goldenrod;
+  margin-right: 5px;
+}
+.fa-play-circle {
+  font-size: 3em;
+  color: #0b5dd7ce;
+}
+.fa-play-circle:hover {
+  color: rgba(218, 165, 32, 0.748);
+  cursor: pointer;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.85);
+}
