@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Game of Thrones (2011–2019)",
+    "genre": "Fantasy, Action, Adventure, Drama",
+    "ratings": 9.2,
+    "stars": "Emilia Clarke, Peter Dinklage, Kit Harington, Lena Headey",
+    "director": "David Benioff",
+    "budget": 950,
+    "img": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Money Heist(2017-2021)",
+    "genre": "Crime, Heist, Thriller, Drama",
+    "ratings": 8.3,
+    "stars": "Ursula Corbeo, Alvaro Morte, Pedro Alonso, Alba Flores",
+    "director": "Alex Pina",
+    "budget": 500,
+    "img": "https://ae01.alicdn.com/kf/H5fa68bca96b044619a7018241efda54ee.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Breaking Bad (2008–2013)",
+    "genre": "Crime, Thriller, Drama",
+    "ratings": 9.4,
+    "stars": "Bryan Cranston, Aaron Paul, Anna Gunn, Betsy Brandt",
+    "director": "Vince Gilligan",
+    "budget": 760,
+    "img": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lucifer (2016–2021)",
+    "genre": "Crime, Fantasy, Drama",
+    "ratings": 8.1,
+    "stars": "Tom Ellis, Lauren German, Kevin Alejandro",
+    "director": "Tom Kapinos",
+    "budget": 840,
+    "img": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 5,
+    "name": "House of Cards (2013–2018)",
+    "genre": "Drama",
+    "ratings": 8.7,
+    "stars": "Kevin Spacey, Michel Gill, Robin Wright, Kate Mara",
+    "director": "Beau Willimon",
+    "budget": 405,
+    "img": "https://m.media-amazon.com/images/M/MV5BODM1MDU2NjY5NF5BMl5BanBnXkFtZTgwMDkxNTcwNjM@._V1_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sherlock (2010–2017)",
+    "genre": "Mystery, Crime, Drama",
+    "ratings": 9.1,
+    "stars": "Benedict Cumberbatch, Martin Freeman, Una Stubbs",
+    "director": "Mark Gatiss, Steven Moffa",
+    "budget": 650,
+    "img": "https://resizing.flixster.com/ci1vGVE67x8KhlosPKRb8mi10xY=/300x300/v2/https://flxt.tmsimg.com/assets/p8204516_b_h9_ao.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Luther (2010–2019)",
+    "genre": "Drama, Crime, Mystery",
+    "ratings": 8.4,
+    "stars": "Idris Elba, Dermot Crowley, Michael Smiley",
+    "director": "Neil Cross",
+    "budget": 570,
+    "img": "https://m.media-amazon.com/images/M/MV5BYTdhNWMwYTMtNzQ3OC00ODZjLWI0YzQtYjVlODZiOWVlYTJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Vikings (2013–2020)",
+    "genre": "Action, Adventure, Drama",
+    "ratings": 8.6,
+    "stars": "Katheryn Winnick, Gustaf Skarsgård, Alexander Ludwig",
+    "director": "Michael Hirst",
+    "budget": 870,
+    "img": "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mr. Robot (2015–2019)",
+    "genre": "Drama, Crime, Mystery",
+    "ratings": 8.5,
+    "stars": "Rami Malek, Christian Slater, Carly Chaikin",
+    "director": "Sam Esmail",
+    "budget": 370,
+    "img": "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dirilis: Ertugrul",
+    "genre": "Historical, Islamic, Adventure",
+    "ratings": 8,
+    "stars": "Engin Altan DüzyatanHülya DarcanCengiz Coskun",
+    "director": "Mehmet Bozdag",
+    "budget": 480,
+    "img": "https://m.media-amazon.com/images/M/MV5BMTYwM2Y5NzMtMzQzZC00YTE5LTlmYzctMzc2M2E5NGQ2YjFjXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Entourage (2004–2011)",
+    "genre": "Comedy, Drama",
+    "ratings": 8.4,
+    "stars": "Kevin Connolly, Adrian Grenier, Kevin Dillon",
+    "director": "Doug Ellin",
+    "budget": 750,
+    "img": "https://m.media-amazon.com/images/M/MV5BZDg3ZDc2MDQtNzQwZi00YzFjLTgyOTMtMDMzZTc5N2VlNTg2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Californication (2007–2014)",
+    "genre": "Comedy, Drama",
+    "ratings": 8.3,
+    "stars": "David Duchovny, Natascha McElhone, Evan Handler",
+    "director": "Tom Kapinos",
+    "budget": 440,
+    "img": "https://m.media-amazon.com/images/M/MV5BMjAyMDM2ODExNF5BMl5BanBnXkFtZTgwNTI2MjkzMTE@._V1_.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Dark",
+    "genre": "Science fiction, Thriller, Mystery",
+    "ratings": 8.8,
+    "stars": "Louis Hofmann, Karoline Eichhorn, Lisa Vicari",
+    "director": "Baran bo Odar, Jantje Friese",
+    "budget": 820,
+    "img": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_.jpg"
+  },
+  {
+    "id": 14,
+    "name": "The Expanse (2015– )",
+    "genre": "Mystery, Drama, Sci-Fi",
+    "ratings": 8.5,
+    "stars": "Wes Chatham, Dominique Tipper, Steven Strait",
+    "director": "Daniel Abraham",
+    "budget": 390,
+    "img": "https://m.media-amazon.com/images/M/MV5BMjM4ZTVkODctNGZhNC00NWY5LWJkMjEtYmI1ZDg2Yjg2NDQzXkEyXkFqcGdeQXVyNjcyNjcyMzQ@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Stranger Things (2016– )",
+    "genre": "Drama, Fantasy, Horror",
+    "ratings": 8.7,
+    "stars": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder",
+    "director": "Matt Duffer, Ross Duffer",
+    "budget": 630,
+    "img": "https://m.media-amazon.com/images/M/MV5BN2ZmYjg1YmItNWQ4OC00YWM0LWE0ZDktYThjOTZiZjhhN2Q2XkEyXkFqcGdeQXVyNjgxNTQ3Mjk@._V1_.jpg"
+  }
+]
