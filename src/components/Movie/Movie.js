@@ -2,7 +2,7 @@ import React from 'react';
 import './Movie.css'
 
 const Movie = (props) => {
-    const { id, name, director, img, ratings, genre, stars, budget } = props.movie;
+    const {name, director, img, ratings, genre, stars, budget } = props.movie;
     return (
             <div className="card mb-3" style={{maxWidth: "310px"}}>
                 <div className="row g-0">

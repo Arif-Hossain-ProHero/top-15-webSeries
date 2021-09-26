@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -20,6 +20,7 @@ const Cart = (props) => {
             totlaBudgetDisplay = parseFloat((totalBudget / 1000).toFixed(3));
             suffix = 'Billion';
         }
+        //creating an object containing movie id and name
         const obj = {};
         obj.id = movie.id;
         obj.name = movie.name;

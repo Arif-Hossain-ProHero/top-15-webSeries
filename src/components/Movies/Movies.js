@@ -12,7 +12,7 @@ const Movies = () => {
             .then(res => res.json())
             .then(data => setMovies(data))
     }, []);
-
+    // onClick button handler
     const addBtnHandler = movie => {
         const newCart = [...cart, movie];
         setCart(newCart);
