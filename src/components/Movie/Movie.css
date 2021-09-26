@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 body {
-  background-color: #2f3b6dd5;
+  /* background-color: #2f3b6dd5; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -9,7 +9,7 @@ img {
   width: 100px;
 }
 .card-title {
-  color: rgba(36, 36, 225, 0.885);
+  color: #3b4b30;
 }
 .genre {
   color: rgb(79, 79, 79);
@@ -45,6 +45,6 @@ img {
   color: rgba(218, 165, 32, 0.748);
   cursor: pointer;
 }
-.card {
-  background-color: rgba(255, 255, 255, 0.85);
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }

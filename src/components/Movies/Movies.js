@@ -5,23 +5,33 @@ import './Movies.css';
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('./fakeData.JSON')
             .then(res => res.json())
             .then(data => setMovies(data))
     }, []);
+
+    const addBtnHandler = movie => {
+        const newCart = [...cart, movie];
+        setCart(newCart);
+    }
     return (
-        <div className='container'>
+        <div className='main container-fluid'>
             <div className='movies-container'>
                 {
                     movies.map(movie =>
-                        <Movie movie={movie} key={movie.id}></Movie>
+                        <Movie
+                            movie={movie}
+                            key={movie.id}
+                            addBtnHandler={addBtnHandler}
+                        ></Movie>
                     )
                 }
             </div>
             <div>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
            </div>
         </div>
     );
