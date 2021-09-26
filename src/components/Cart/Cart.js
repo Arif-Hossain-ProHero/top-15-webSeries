@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -6,6 +6,8 @@ const Cart = (props) => {
     let totalBudget = 0;
     let totlaBudgetDisplay = '0';
     let suffix = '';
+    let moviesAdded = [];
+    console.log(props);
     for (const movie of props.cart) {
         totalAdded = totalAdded + 1;
         totalBudget = parseFloat(totalBudget + movie.budget);
@@ -18,11 +20,24 @@ const Cart = (props) => {
             totlaBudgetDisplay = parseFloat((totalBudget / 1000).toFixed(3));
             suffix = 'Billion';
         }
+        const obj = {};
+        obj.id = movie.id;
+        obj.name = movie.name;
+        moviesAdded.push(obj);
     }
     return (
         <div className='cart-container'>
-            <h5>Total Movie Added: {totalAdded}</h5>
-            <h5>Total Budget: ${totlaBudgetDisplay} {suffix}</h5>
+            <h5 className='total-added'>Total Movie Added: <span>{totalAdded}</span></h5>
+            <h5 className='total-budget'>Total Budget: <span>${totlaBudgetDisplay} {suffix}</span></h5>
+              {
+                moviesAdded.map(movie =>
+                    <p className='added-movie'
+                        key={movie.id}>
+                        {movie.name}
+                        <span>&times;</span>
+                    </p>
+                )
+            }
         </div>
     );
 };

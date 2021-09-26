@@ -2,8 +2,11 @@
 body {
   /* background-color: #2f3b6dd5; */
   font-family: "Poppins", sans-serif;
+  background-color: #fff;
 }
-
+.card {
+  background-color: rgb(245, 244, 244);
+}
 img {
   height: 200px;
   width: 100px;

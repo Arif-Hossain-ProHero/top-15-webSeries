@@ -1,3 +1,35 @@
+.cart-container {
+  background-color: #0b5ed7;
+  margin-top: none;
+  min-height: 100vh;
+  padding: 16px 8px 12px 8px;
+  border-radius: 6px;
+}
 .cart-container h5 {
   font-size: 20px;
+  color: #011627;
+}
+.total-budget {
+  margin-top: 1.5em;
+  padding-bottom: 36px;
+}
+h5 span {
+  color: white;
+}
+.added-movie {
+  background-color: #011627;
+  color: rgb(238, 238, 238);
+  padding: 8px 6px;
+  border: 1px solid rgba(211, 211, 211, 0.638);
+}
+.added-movie span {
+  margin-top: ;
+  float: right;
+  margin-right: 5px;
+  font-size: 20px;
+  /* background-color: red; */
+  color: red;
+}
+.added-movie span:hover {
+  cursor: pointer;
 }
