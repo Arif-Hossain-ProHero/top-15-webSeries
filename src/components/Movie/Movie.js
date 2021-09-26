@@ -20,7 +20,7 @@ const Movie = (props) => {
                             <p className='director'>Directed by: {director}</p>
                             <p className='stars'><span style={{color:'#212529'}}>Starring:</span> {stars}</p>
                         <p className='budget'>Budget: ${budget} Million</p>
-                        <button onClick={()=>props.addBtnHandler(props.movie)} className='add-btn btn btn-primary'>Add to Favourite</button>
+                        <button onClick={()=>props.addBtnHandler(props.movie)} className='add-btn btn btn-primary'><i className="far fa-heart"></i>Add to Favourite</button>
                         </div>
                     </div>
                 </div>

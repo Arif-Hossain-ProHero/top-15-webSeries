@@ -34,7 +34,7 @@ const Cart = (props) => {
                     <p className='added-movie'
                         key={movie.id}>
                         {movie.name}
-                        <span>&times;</span>
+                        <span className='delete-btn'>&times;</span>
                     </p>
                 )
             }
